@@ -1,0 +1,27 @@
+.toast-container {
+  position: fixed;
+}
+.toast-container.top-right {
+  top: 0;
+  right: 0;
+}
+.toast-container.bottom-right {
+  bottom: 30px;
+  right: 30px;
+}
+.toast-message {
+  margin: 20px;
+}
+.toast-container.bottom-right .toast-message,
+.toast-container.top-right .toast-message {
+  animation: left-to-right 600ms;
+}
+
+@keyframes left-to-right {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}

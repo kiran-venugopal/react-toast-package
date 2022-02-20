@@ -1,0 +1,8 @@
+.message {
+  box-shadow: 2px 2px 11px #46464621;
+  padding: 10px;
+  border-radius: 5px;
+  background: #fff9c7;
+  font-size: 13px;
+  color: green;
+}
